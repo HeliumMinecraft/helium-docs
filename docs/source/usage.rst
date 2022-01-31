@@ -6,29 +6,24 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use Helium, you can download  a example mod here: https://www.github.com/HeliumMinecraft/helium-example-mod and run gradlew setupMinecraft
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+ <D:\Helium Mods\helium-example-mod> gradlew setupMinecraft
 
-Creating recipes
+Creating a mod
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Once is installed you can create a class called <name of your mod>.java that contains 
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: java
+public class ExampleMod extends Mod implements ModListener, IMod{
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
 
-For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+
+}
+
 
