@@ -18,6 +18,7 @@ Creating a mod
 Once is installed you can create a class called <name of your mod>.java that contains 
 
 .. code-block:: java
+
 public class ExampleMod extends Mod implements ModListener, IMod{
 
 
