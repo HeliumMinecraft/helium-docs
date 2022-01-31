@@ -1,12 +1,11 @@
-Welcome to Lumache's documentation!
+Welcome to Helium's Documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Helium** is a mod library for Minecraft' Java edition
+All mods have compatibility to 1.15-> & Snapshots
+and offers a *good*  and  a *simple* Mod System
 
-Check out the :doc:`usage` section for further information, including
+Check out the :doc:`Build` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
@@ -18,5 +17,5 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Build
+   Install
