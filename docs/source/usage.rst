@@ -1,12 +1,12 @@
-Usage
+Uso
 =====
 
 .. _installation:
 
-Installation
+Instalación
 ------------
 
-To use Helium, you can download  a example mod here: https://www.github.com/HeliumMinecraft/helium-example-mod and run gradlew setupMinecraft
+Puedes descargar un mod de ejemplo: https://www.github.com/HeliumMinecraft/helium-example-mod y poner en la consola de comandos gradlew setupMinecraft
 
 .. code-block:: console
 
@@ -15,7 +15,7 @@ To use Helium, you can download  a example mod here: https://www.github.com/Heli
 Creating a mod
 ----------------
 
-Once is installed you can create a class called <name of your mod>.java that contains 
+Una vez instalado puedes hacer una clase que diga <Nombre del mod>.java que contenga
 
 .. code-block:: java
 
@@ -26,5 +26,29 @@ public class ExampleMod extends Mod implements ModListener, IMod{
 
 
 }
+
+Hacer un bloque
+----------------
+
+Para hacer un bloque crea una clase que diga <nombre del bloque>.java que contenga
+
+
+.. code-block:: java
+
+
+public class ExampleBlock extends Block{
+
+public ExampleBlock(){
+
+
+}
+
+
+
+}
+
+
+
+
 
 
