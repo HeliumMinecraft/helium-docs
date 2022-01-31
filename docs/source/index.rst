@@ -1,9 +1,9 @@
 Bienvenido a la documentación de Helium
 ===================================
 
-**Helium** es una libreria de mods de Minecraft' Java Editioj
+**Helium** es una libreria de mods de Minecraft' Java Edition
 Todos los mods son compatibles con 1.15-> y las snapshots
-and offers a *good*  and  a *simple* Mod System
+
 
 Chequea la sección :doc:`Compilar` para saber como compilar incluso
 como hacer la :ref:`instalación del proyecto`
